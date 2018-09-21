@@ -1,0 +1,21 @@
+$red : #e20b0b;
+
+.password{
+  &__error{
+    &--numbers{
+      color: $red;
+    }
+    &--lowercase{
+       color: $red;
+    }
+    &--uppercase{
+      color: $red;
+    }
+    &--special{
+      color: $red;
+    }
+    &--minchar{
+      color: $red;
+    }
+  }
+}
